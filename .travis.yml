@@ -1,7 +1,6 @@
-install:
-  # install v6.x of nodejs
-   - nvm install 6
-  #install yarn globally
-   - npm install -g yarn
-   - yarn install
-   - yarn run build
+language: node_js
+node_js:
+  - "6"
+
+cache: yarn
+script: yarn run build
