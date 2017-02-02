@@ -4,3 +4,10 @@ node_js:
 
 cache: yarn
 script: yarn run build
+
+deploy:
+  provider: npm
+  api_key: "YOUR_API_KEY"
+  on:
+    tags: true
+    branch: production
