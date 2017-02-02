@@ -3,7 +3,7 @@
   "title": "True Css",
   "description": "TrueCss is a fancy front-end framework for developing fast and powerful web interfaces!",
   "email": "tesgit@mailinator.com",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Franky54/TrueCss"
