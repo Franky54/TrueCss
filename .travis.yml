@@ -1,2 +1,6 @@
+before_script:
+  #install yarn globally
+   - npm install -g yarn
+
 install:
-  - npm run build
+   - yarn install
