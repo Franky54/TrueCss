@@ -30,6 +30,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin({ filename: 'dist/bundle.css', disable: false, allChunks: true })
+        new ExtractTextPlugin({ filename: 'dist/bundle.css', disable: false, allChunks: true }),
+        new ExtractTextPlugin({ filename: 'docs/css/bundle.css', disable: false, allChunks: true })
     ]
 }
