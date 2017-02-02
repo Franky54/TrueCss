@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 cache: yarn
 script: yarn run build
-
 deploy:
   provider: npm
-  api_key: "YOUR_API_KEY"
   on:
     tags: true
     branch: production
+  api_key:
+    secure: j5Utu2SYRfPTJTn+EpHO2Z4ENd7cx7RKdwnZO25QkyDNdRfNjIzA4ymSmqYnVG5v3+rvJg/PglIctaQWZG07BelwDJkGWCghdyj8XTajuD5q0SS44Dqq7p9f9EakNMVpe6vzKR6qU0FXhJ8ji/49p5z274N+dY3HxikeCW9pQvwqZilInBoap5QSOYLY722d4bCx56I6lu9L0NsVw0WwzmoHZPmcl/+SQWyQtUY7/dYH6++I7ql+jV7XK71Xm32mRfGqYOvrqFQd7s6vWrEwUnWiAFaf6M8mnhHtLxub1XNj3OvHSMWZF0SFtzCgna5I1VzXt/X3zvUnPyisHj3B+qDlmcWrJng7Yqdxo7ljkBJxNJnsWJlY5xNr9nvTuHTZzz7GwGh3raVDDRIfe1zrif4CZreKZyT/1xk5sewFYM8ZTE2r0LWSBCznqLyXgw1W8X8/MJvyHTC4FyvvIfNtJBvBX+Ponp/o3kXfLAPA0jPae+XkcC9m+V1m8KiX8kuGwTdHIT+P1n93jJ66XbS21Kzr3MEVk5Uc1u0CgdNpZHMdagVu9vuzpfA0eUVCbxQh74X939GryNUBBFWwzzbbi9KeFfnVXIoEB6HhWksoXn1VETn+dARK44FEk71eLXMOfLlBmkDTcpvtHrnNqHD7EOn/rn161vdohvkWbYlH9Wo=
