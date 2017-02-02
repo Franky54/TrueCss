@@ -1,6 +1,6 @@
-before_script:
+install:
+  # install v6.x of nodejs
+   - nvm install 6
   #install yarn globally
    - npm install -g yarn
-
-install:
    - yarn install
