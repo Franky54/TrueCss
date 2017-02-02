@@ -1,1 +1,1 @@
-require('./TrueCss.sass')
+import css from './TrueCss.sass'

@@ -98,3 +98,11 @@ table {
     vertical-align: top; }
   table th {
     color: #363636; }
+
+div {
+  width: 300px;
+  background-color: #999;
+  transition: width 0.6s ease; }
+
+div:hover {
+  width: 300px; }

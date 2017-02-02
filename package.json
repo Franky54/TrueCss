@@ -8,7 +8,8 @@
     "url": "git+https://github.com/Franky54/TrueCss"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
@@ -16,7 +17,6 @@
     "node-sass": "^4.5.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^1.16.3"
+    "webpack": "^2.2.1"
   }
 }

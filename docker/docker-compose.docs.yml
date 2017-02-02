@@ -1,7 +1,8 @@
 jekyll:
-    image: jekyll/jekyll:pages
-    command: jekyll serve --watch --incremental
+    image: markkimsal/jekyll-plus
+    #command: jekyll serve --watch --incremental
     ports:
         - 4000:4000
+        - 35729:35729
     volumes:
-        - ../docs:/srv/jekyll
+        - ../docs:/src
