@@ -1,0 +1,4 @@
+node_modules
+
+# don't commit raw webpack engine. For now we do not need any js but webpack creates a js by default.
+dist/main.js

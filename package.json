@@ -1,0 +1,21 @@
+{
+  "name": "TrueCss",
+  "title": "TrueCss",
+  "description": "TrueCss is a fancy front-end framework for developing fast and powerful web interfaces.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franky54/TrueCss"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "beta",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
+}
