@@ -60,3 +60,6 @@ div[class*=element--codebox--] {
 
 .text {
   color: #fff; }
+
+.new-component-001 {
+  border: 1px solid green; }
