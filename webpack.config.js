@@ -3,15 +3,9 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin")
 
 var loaders = [{
         loader: 'css-loader',
-        options: {
-            modules: true
-        }
     },
     {
-        loader: 'sass-loader',
-        options: {
-           sourceMap: true
-        }
+        loader: 'sass-loader'
     }
 ]
 module.exports = {
